@@ -1,0 +1,57 @@
+
+@font-face {
+  font-family: "zeta";
+  src: url("/Zeta/zeta1.otf");
+}
+@font-face {
+  font-family: "recoleta";
+  src: url("/recoleta/recoletaz.otf");
+}
+
+.Home {
+  display: flex;
+  background-color: #060c1f74;
+}
+.left {
+  flex: 0.5;
+  /* background-color: aqua; */
+}
+.right {
+  flex: 0.5;
+  position: relative;
+  /* background-color: gainsboro; */
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20%;
+  /* font-family: "LXGW WenKai TC", cursive; */
+  font-family: "recoleta";
+  cursor: default;
+
+  font-size: 45px;
+  color: #fcf6f5ff;
+}
+.work {
+  color: rgb(131, 12, 12);
+}
+.homeimg {
+  width: 30vw;
+  height: 45vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 15vh;
+  margin: auto;
+  animation: animate 2s ease infinite alternate;
+}
+@keyframes animate {
+  to {
+    transform: translateY(20px);
+  }
+}
+

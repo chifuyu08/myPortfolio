@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "zeta";
+  src: url("/Zeta/zeta3.otf");
+}
+@font-face {
+  font-family: "Gunterz";
+  src: url("/Gunterz/Demo_Fonts/gunterz2.otf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  &&::-webkit-scrollbar{
+    display: none; 
+  }
+  }
+.common{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.contact-css{
+    background-color: red;
+}
+.project-css{
+    background-color: green;
+}
+.skills-css{
+    background-color: yellow;
+}
+.work{
+    font-family: "zeta";
+  font-size: 40px;
+  color: rgb(23, 217, 201);
+}
+.img-css{
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 8vw;
+    height: 15vh;
+}
+
+.resume{
+  position: absolute;
+  left: 46vw;
+  font-family: "Gunterz";
+  color: rgb(23, 217, 201);
+  top: 5vh;
+  font-size: 12px;
+  border: solid 1px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.resume:hover{
+  background-color: rgb(23, 217, 201);
+  color: black;
+ 
+}
+.navbar{
+  position: fixed;
+  left: 50%;
+  display: flex;
+  gap:0.8rem;
+  bottom: 2rem;
+  font-size: 23px;
+  background-color: rgba(0, 0, 0, 0.321);
+  padding: 0.4rem 1.7rem;
+  border-radius: 3rem;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.navbar a{
+  color: rgb(23, 217, 201);
+  text-decoration: none;
+  cursor: pointer !important;
+  padding: 0.5rem;
+ 
+}
