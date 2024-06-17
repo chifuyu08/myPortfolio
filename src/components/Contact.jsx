@@ -4,7 +4,7 @@ import css from "../design/contact.module.css";
 import { IoMail } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 
 
