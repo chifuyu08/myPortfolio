@@ -82,7 +82,11 @@
   text-decoration: none;
   cursor: pointer !important;
   padding: 0.5rem;
+  scroll-behavior: smooth;
  
+}
+.navbar a:hover{
+  scale: 1.5;
 }
 
 .counting-css{
