@@ -6,6 +6,11 @@
   font-family: "Gunterz";
   src: url("/Gunterz/Demo_Fonts/gunterz2.otf");
 }
+@font-face {
+  font-family: "edrgoz";
+  src: url("/edrgo/Edrgo/OTF/Edrgo2.otf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,9 +24,7 @@
     height: 100vh;
     
 }
-.contact-css{
-    background-color: red;
-}
+
 .project-css{
     background-color: green;
 }
@@ -80,4 +83,9 @@
   cursor: pointer !important;
   padding: 0.5rem;
  
+}
+
+.counting-css{
+  font-family: "edrgoz";
+
 }

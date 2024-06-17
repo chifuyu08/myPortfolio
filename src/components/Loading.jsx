@@ -22,7 +22,7 @@ const Loading = ({ reveal }) => {
         if (prev < 100) prev += 1;
         return prev;
       });
-    }, 200);
+    }, 300);
     if (counter === 100) {
       clearInterval(count);
       reveal();
@@ -120,11 +120,11 @@ const Loading = ({ reveal }) => {
       {particleComponent}
       <Follow className="follow"></Follow>
       <ProgressBar
-        className="hide"
+        className="hide "
         id="progress-bar"
         style={{ width: counter + "%" }}
       ></ProgressBar>
-      <Count id="count" className="hide">
+      <Count id="count" className="hide counting-css">
         {counter}%
       </Count>
     </LoadingDiv>
@@ -160,8 +160,7 @@ const ProgressBar = styled.div`
 `;
 const Count = styled.p`
   position: absolute;
-  font-size: 130px;
+  font-size: 100px;
   color: #fff;
   transform: translateY(-55px);
-  font-weight: 500;
 `;

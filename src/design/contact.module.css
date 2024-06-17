@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "recoleta";
+  src: url("/recoleta/recoletaz.otf");
+}
+.contact {
+  background-color: #060c1f74;
+  display: flex;
+  font-family: "recoleta";
+}
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.left h1{
+    font-size: 4.3rem;
+    margin-left: 10vw;
+}
+.leftInfo{
+    font-size: 15px;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.Icon {
+    font-size: 30px;
+}
+
+.right{
+    flex: 1;
+    position: relative;
+}
+.formcontainer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40vw;
+    justify-content: center;
+    color: white;
+
+
+}
+.formcontainer input,textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-family: "recoleta";
+}
+.formcontainer button{
+    background-color: orange;
+    padding: 20px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+}
+.phoneSvg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    stroke: orange;
+    background-color: none;
+}

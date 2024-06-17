@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "recoleta";
+    src: url("/recoleta/recoletaz.otf");
+  }
+.headText{
+    font-size: 2.75rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--black-color);
+  text-transform: capitalize;
+  font-family: "recoleta";
+  margin-top: 5vh;
+}
+.headText span{
+    color: rgb(23, 217, 201);
+}
